@@ -43,6 +43,7 @@ const getContact = asyncHandler( async(req, res) => {
   res.status(200).json(contact);
 });
 
+
 //@desc update contact
 //@route get /api/contacts
 //@access private
